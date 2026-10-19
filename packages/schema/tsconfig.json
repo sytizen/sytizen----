@@ -3,7 +3,8 @@
 	"compilerOptions": {
 		"customConditions": ["@sytizen:src", "@sytizen/schema:src"],
 		"outDir": "./dist",
-		"rootDir": "./src"
+		"rootDir": "./src",
+		"types": ["node"]
 	},
 	"extends": ["../../.tsconfig.json"],
 	"files": []
